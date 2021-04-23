@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<div class="skip"><a href="#main">Skip to Main Content</a></div>
+	<div class="skip"><a href="#mainn">Skip to Main Content</a></div>
 
 
 
@@ -26,7 +26,7 @@
 			</ul>
 		</nav>
 	<h1>Contact Me!</h1>
-	<p>Want to connect, share recipes, talk about food,
+	<p id="mainn"> Want to connect, share recipes, talk about food,
 		or anything else? Feel free to contact me using the 
 		form below!
 	</p>
@@ -34,16 +34,38 @@
 
 	<main class="container">
 
-		<div>
-			<p>Work in Progress</p>
+		<form action="https://formspree.io/f/moqyqqqw" method="POST">
+			<fieldset>
+			  <legend>Send Me a Message!</legend>
 
-		</div>
+			<div class="container">
+			  <label for="fullname">Your Name</label>
+			  <input type="text" name = "name" id="fullname" placeholder="Enter Your Name"><br>
+
+			  <label for="fullemail">Your Email</label>
+			  <input type = "email" name = "email" id="fullemail" placeholder="Enter Your Email"><br>
+
+			  <label for="msg">Leave A Message</label>
+
+
+			  <textarea placeholder="Enter your message" name = "message" id="msg"></textarea><br>
+				
+			  <label for="remember">Remember me</label> <br>
+			  <input type="checkbox" name = "remember" id="remember" checked="checked"> 
+			  
+
+			  <input type="submit" value = "Submit"></input>    
+			</div>
+		  </fieldset>
+		  </form>
 
 
 
 		<div class="bee-image">
 			<img class="bee-1" src="images/bee_reverse.png" alt="bee"/>
 			<img class= "bee-2" src="images/bee.png" alt ="bee"/>
+			<img class="bee-3" src="images/bee.png" alt="bee"/>
+			<img class="bee-4" src="images/bee_reverse.png" alt="bee"/>
 		  </div>
 
 	</main>

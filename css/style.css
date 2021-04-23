@@ -153,6 +153,10 @@ img {
     grid-row: 3 / -1;
 }
 
+.bee-4{
+    grid-row: 3 / 1;
+}
+
 img .bee-2{
     max-height: 300px;
     max-width: 200px;
@@ -228,6 +232,57 @@ table{
 
 
 
+  form {
+    font-size: 125%;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid black;
+  }
+
+  legend {
+      text-align: center;
+      font-size: 150%;
+  }
+
+  label{
+    display: inline-block;
+    margin-right:10px;
+
+
+  }
+  
+  input {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  
+
+  textarea{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;  
+  }
+
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 44%;
+  }
+
+  
+
 
 @media screen and (min-width: 750px){
 
@@ -254,7 +309,24 @@ table{
 
 
 .bee-2{
-    grid-column: 2 / -1;
+    grid-row: 1 / -1;
 }
+
+
+label{
+    display: inline-block;
+    margin-right:10px;
+    width:15%;
+  }
+
+
+  input {
+    width: 60%;
+
+  }
+
+  textarea{
+    width: 60%;
+  }
 
 }
